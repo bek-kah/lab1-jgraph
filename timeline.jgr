@@ -1,0 +1,15 @@
+newgraph 
+
+xaxis
+  min 0 max 343
+  label : Time
+  
+  no_auto_hash_labels
+  hash_label at 0 : 00:00
+  hash_label at 343 : 05:43
+
+yaxis
+  min 0 max 10
+  label : Instruments
+
+  no_auto_hash_labels
