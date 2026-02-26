@@ -1,8 +1,9 @@
-instrument 1 0 300
-80 0 0 2
-80 0 0 2 
+track 359
+instrument 1
+0 80 0 2
+0 80 0 2 
 end
-instrument 2 0 200
+instrument 2
 0 120 0 6
 0 120 0 6
 end
