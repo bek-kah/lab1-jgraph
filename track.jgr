@@ -1,0 +1,62 @@
+newgraph
+
+xaxis
+min 0 max 30
+label fontsize 10 font Courier : Time
+hash 60
+no_auto_hash_marks
+no_auto_hash_labels
+hash_label at 0 : 00:00
+hash_label at 30 : 00:30
+hash_labels fontsize 8 font Courier
+
+yaxis
+min 0 max 72
+label fontsize 10 font Courier : Instruments
+no_auto_hash_marks
+no_auto_hash_labels
+hash_at 18 hash_label at 18 : #1
+hash_at 54 hash_label at 54 : #2
+hash_labels fontsize 8 font Courier
+
+newline poly pcfill 0.5 0.5 0.629921 color 0.5 0.5 0.629921 pts 0 0 0 3 2 3 2 0
+newline poly pcfill 0.5 0.5 0.629921 color 0.5 0.5 0.629921 pts 0 0 0 3 2 3 2 0
+newline poly pcfill 0.5 0.5 0.551181 color 0.5 0.5 0.551181 pts 3 0 3 3 5 3 5 0
+newline poly pcfill 0.5 0.5 0.551181 color 0.5 0.5 0.551181 pts 3 0 3 3 5 3 5 0
+newline poly pcfill 0.5 0.5 0.472441 color 0.5 0.5 0.472441 pts 6 0 6 3 8 3 8 0
+newline poly pcfill 0.5 0.5 0.472441 color 0.5 0.5 0.472441 pts 6 0 6 3 8 3 8 0
+newline poly pcfill 0.5 0.5 0.629921 color 0.5 0.5 0.629921 pts 0 6 0 9 2 9 2 6
+newline poly pcfill 0.5 0.5 0.629921 color 0.5 0.5 0.629921 pts 0 6 0 9 2 9 2 6
+newline poly pcfill 0.5 0.5 0.551181 color 0.5 0.5 0.551181 pts 3 6 3 9 5 9 5 6
+newline poly pcfill 0.5 0.5 0.551181 color 0.5 0.5 0.551181 pts 3 6 3 9 5 9 5 6
+newline poly pcfill 0.5 0.5 0.472441 color 0.5 0.5 0.472441 pts 6 6 6 9 8 9 8 6
+newline poly pcfill 0.5 0.5 0.472441 color 0.5 0.5 0.472441 pts 6 6 6 9 8 9 8 6
+newline poly pcfill 0.5 0.5 0.944882 color 0.5 0.5 0.944882 pts 0 36 0 39 30 39 30 36
+newline poly pcfill 0.5 0.5 0.944882 color 0.5 0.5 0.944882 pts 0 36 0 39 30 39 30 36
+
+newline poly linethickness 1 color 0.75 0.75 0.75 pfill -1 pts 0 0 0 3 30 3 30 0
+newline poly linethickness 1 color 0.75 0.75 0.75 pfill -1 pts 0 3 0 6 30 6 30 3
+newline poly linethickness 1 color 0.75 0.75 0.75 pfill -1 pts 0 6 0 9 30 9 30 6
+newline poly linethickness 1 color 0.75 0.75 0.75 pfill -1 pts 0 9 0 12 30 12 30 9
+newline poly linethickness 1 color 0.75 0.75 0.75 pfill -1 pts 0 12 0 15 30 15 30 12
+newline poly linethickness 1 color 0.75 0.75 0.75 pfill -1 pts 0 15 0 18 30 18 30 15
+newline poly linethickness 1 color 0.75 0.75 0.75 pfill -1 pts 0 18 0 21 30 21 30 18
+newline poly linethickness 1 color 0.75 0.75 0.75 pfill -1 pts 0 21 0 24 30 24 30 21
+newline poly linethickness 1 color 0.75 0.75 0.75 pfill -1 pts 0 24 0 27 30 27 30 24
+newline poly linethickness 1 color 0.75 0.75 0.75 pfill -1 pts 0 27 0 30 30 30 30 27
+newline poly linethickness 1 color 0.75 0.75 0.75 pfill -1 pts 0 30 0 33 30 33 30 30
+newline poly linethickness 1 color 0.75 0.75 0.75 pfill -1 pts 0 33 0 36 30 36 30 33
+newline poly linethickness 1 color 0.75 0.75 0.75 pfill -1 pts 0 36 0 39 30 39 30 36
+newline poly linethickness 1 color 0.75 0.75 0.75 pfill -1 pts 0 39 0 42 30 42 30 39
+newline poly linethickness 1 color 0.75 0.75 0.75 pfill -1 pts 0 42 0 45 30 45 30 42
+newline poly linethickness 1 color 0.75 0.75 0.75 pfill -1 pts 0 45 0 48 30 48 30 45
+newline poly linethickness 1 color 0.75 0.75 0.75 pfill -1 pts 0 48 0 51 30 51 30 48
+newline poly linethickness 1 color 0.75 0.75 0.75 pfill -1 pts 0 51 0 54 30 54 30 51
+newline poly linethickness 1 color 0.75 0.75 0.75 pfill -1 pts 0 54 0 57 30 57 30 54
+newline poly linethickness 1 color 0.75 0.75 0.75 pfill -1 pts 0 57 0 60 30 60 30 57
+newline poly linethickness 1 color 0.75 0.75 0.75 pfill -1 pts 0 60 0 63 30 63 30 60
+newline poly linethickness 1 color 0.75 0.75 0.75 pfill -1 pts 0 63 0 66 30 66 30 63
+newline poly linethickness 1 color 0.75 0.75 0.75 pfill -1 pts 0 66 0 69 30 69 30 66
+newline poly linethickness 1 color 0.75 0.75 0.75 pfill -1 pts 0 69 0 72 30 72 30 69
+newline poly linethickness 1.5 color 0 0 0 pfill -1 pts 0 0 0 36 30 36 30 0
+newline poly linethickness 1.5 color 0 0 0 pfill -1 pts 0 36 0 72 30 72 30 36

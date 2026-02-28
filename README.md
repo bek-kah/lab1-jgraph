@@ -25,7 +25,7 @@ First line should be start like this:
 
 `track_name duration`
 
-`track_name` can be any string as it's just the title of the entire track. 
+`track_name` can be any string as it's just the title of the entire track and it'll be the title of your .jgr file. 
 
 `duration` is the number of seconds you want your track to span.
 
@@ -44,3 +44,23 @@ the string `instrument` lets my program know that we'll create a new instrument 
 notes that follow will be added to that instrument with `p` for pitch, `v` for velocity, `s` for start time, and `e` for end time. (all of which are ints).
 
 `end` lets my program know that `instrument n` is finished so I can add it to the track.
+
+
+
+Now that you know how to create a textfile file to feed into my file here's what to run.
+
+to compile and run: 
+`g++ midi-generator.cpp -o midi-generator && ./midi-generator [input_file_name]`
+
+to generate jpg from generated jrg:
+`jgraph -P [generated .jrg file_name] | ps2pdf - - | magick -density 300 - -quality 100 [file_name you want your .jpg to be]`
+
+for testing purposes I've created `sample.txt` so just run:
+`g++ midi-generator.cpp -o midi-generator && ./midi-generator sample.txt`
+
+then:
+`jgraph -P track.jgr | ps2pdf - - | magick -density 300 - -quality 100 track.jpg`
+
+after that you should have generated `track.jpg`.
+
+if you have any questions you can contact me at: ukahramo@vols.utk.edu
