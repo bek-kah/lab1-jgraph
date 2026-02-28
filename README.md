@@ -43,6 +43,16 @@ the string `instrument` lets my program know that we'll create a new instrument 
 
 notes that follow will be added to that instrument with `p` for pitch, `v` for velocity, `s` for start time, and `e` for end time. (all of which are ints).
 
+the valid ranges for them are:
+
+`p : 0 - 11`
+
+`v : 0 - 127`
+
+`s : 0 - max_int`
+
+`e : 0 - max_int`
+
 `end` lets my program know that `instrument n` is finished so I can add it to the track.
 
 ---
