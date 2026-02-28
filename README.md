@@ -57,14 +57,14 @@ to generate jpg from generated jrg:
 
 ```jgraph -P [generated .jrg file_name] | ps2pdf - - | magick -density 300 - -quality 100 [file_name you want your .jpg to be]```
 
-for testing purposes I've created `sample.txt` so just run:
+---
 
-```g++ midi-generator.cpp -o midi-generator && ./midi-generator sample.txt```
+If you don't feel like making your own you can just run:
 
-then:
+`make`
 
-```jgraph -P track.jgr | ps2pdf - - | magick -density 300 - -quality 100 track.jpg```
+and you'll get an `output` directory with 5 `.jgr` and their corresponding `.jpg` files.
 
-after that you should have generated `track.jpg`.
+here's one of them:
 
-if you have any questions you can contact me at: ukahramo@vols.utk.edu
+<img width="574" height="534" alt="Screenshot 2026-02-27 at 9 58 27 PM" src="https://github.com/user-attachments/assets/bf421478-6da4-4477-8849-30dae7405e74" />
