@@ -1,0 +1,20 @@
+ArpeggioGalaxy 30
+instrument 1
+note 0 100 0 3
+note 4 100 3 6
+note 7 100 6 9
+note 11 100 9 12
+note 4 100 12 15
+note 7 100 15 18
+note 11 100 18 21
+note 4 100 21 24
+note 7 100 24 27
+note 11 100 27 30
+end
+instrument 2
+note 7 70 0 6
+note 11 70 6 12
+note 4 70 12 18
+note 7 70 18 24
+note 11 70 24 30
+end

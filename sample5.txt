@@ -1,0 +1,19 @@
+GlitchStorm 18
+instrument 1
+note 11 120 0 2
+note 0 40 1 3
+note 3 100 2 4
+note 3 30 3 5
+note 8 127 4 6
+note 7 50 5 7
+note 11 110 6 8
+note 7 20 7 9
+note 6 127 8 10
+note 2 60 9 11
+note 4 100 10 12
+note 10 45 11 13
+note 11 127 12 14
+note 4 30 13 15
+note 3 120 14 16
+note 0 70 15 18
+end

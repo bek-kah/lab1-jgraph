@@ -1,0 +1,17 @@
+VelocityBurst 15
+instrument 1
+note 0 20 0 5
+note 0 50 0 5
+note 0 80 0 5
+note 0 110 0 5
+note 0 127 0 5
+note 6 20 5 10
+note 6 50 5 10
+note 6 80 5 10
+note 6 110 5 10
+note 6 127 5 10
+note 11 20 10 15
+note 11 60 10 15
+note 11 100 10 15
+note 11 127 10 15
+end

@@ -1,0 +1,17 @@
+WaveDuel 24
+instrument 1
+note 0 90 0 4
+note 4 90 4 8
+note 7 90 8 12
+note 11 90 12 16
+note 7 90 16 20
+note 4 90 20 24
+end
+instrument 2
+note 11 60 0 4
+note 7 60 4 8
+note 4 60 8 12
+note 0 60 12 16
+note 4 60 16 20
+note 7 60 20 24
+end

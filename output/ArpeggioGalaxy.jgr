@@ -19,20 +19,21 @@ hash_at 18 hash_label at 18 : #1
 hash_at 54 hash_label at 54 : #2
 hash_labels fontsize 8 font Courier
 
-newline poly pcfill 0.5 0.5 0.629921 color 0.5 0.5 0.629921 pts 0 0 0 3 2 3 2 0
-newline poly pcfill 0.5 0.5 0.629921 color 0.5 0.5 0.629921 pts 0 0 0 3 2 3 2 0
-newline poly pcfill 0.5 0.5 0.551181 color 0.5 0.5 0.551181 pts 3 0 3 3 5 3 5 0
-newline poly pcfill 0.5 0.5 0.551181 color 0.5 0.5 0.551181 pts 3 0 3 3 5 3 5 0
-newline poly pcfill 0.5 0.5 0.472441 color 0.5 0.5 0.472441 pts 6 0 6 3 8 3 8 0
-newline poly pcfill 0.5 0.5 0.472441 color 0.5 0.5 0.472441 pts 6 0 6 3 8 3 8 0
-newline poly pcfill 0.5 0.5 0.629921 color 0.5 0.5 0.629921 pts 0 6 0 9 2 9 2 6
-newline poly pcfill 0.5 0.5 0.629921 color 0.5 0.5 0.629921 pts 0 6 0 9 2 9 2 6
-newline poly pcfill 0.5 0.5 0.551181 color 0.5 0.5 0.551181 pts 3 6 3 9 5 9 5 6
-newline poly pcfill 0.5 0.5 0.551181 color 0.5 0.5 0.551181 pts 3 6 3 9 5 9 5 6
-newline poly pcfill 0.5 0.5 0.472441 color 0.5 0.5 0.472441 pts 6 6 6 9 8 9 8 6
-newline poly pcfill 0.5 0.5 0.472441 color 0.5 0.5 0.472441 pts 6 6 6 9 8 9 8 6
-newline poly pcfill 0.5 0.5 0.944882 color 0.5 0.5 0.944882 pts 0 36 0 39 30 39 30 36
-newline poly pcfill 0.5 0.5 0.944882 color 0.5 0.5 0.944882 pts 0 36 0 39 30 39 30 36
+newline poly pcfill 0.5 0.5 0.787402 color 0.5 0.5 0.787402 pts 0 0 0 3 3 3 3 0
+newline poly pcfill 0.5 0.5 0.787402 color 0.5 0.5 0.787402 pts 3 12 3 15 6 15 6 12
+newline poly pcfill 0.5 0.5 0.787402 color 0.5 0.5 0.787402 pts 6 21 6 24 9 24 9 21
+newline poly pcfill 0.5 0.5 0.787402 color 0.5 0.5 0.787402 pts 9 33 9 36 12 36 12 33
+newline poly pcfill 0.5 0.5 0.787402 color 0.5 0.5 0.787402 pts 12 12 12 15 15 15 15 12
+newline poly pcfill 0.5 0.5 0.787402 color 0.5 0.5 0.787402 pts 15 21 15 24 18 24 18 21
+newline poly pcfill 0.5 0.5 0.787402 color 0.5 0.5 0.787402 pts 18 33 18 36 21 36 21 33
+newline poly pcfill 0.5 0.5 0.787402 color 0.5 0.5 0.787402 pts 21 12 21 15 24 15 24 12
+newline poly pcfill 0.5 0.5 0.787402 color 0.5 0.5 0.787402 pts 24 21 24 24 27 24 27 21
+newline poly pcfill 0.5 0.5 0.787402 color 0.5 0.5 0.787402 pts 27 33 27 36 30 36 30 33
+newline poly pcfill 0.5 0.5 0.551181 color 0.5 0.5 0.551181 pts 0 57 0 60 6 60 6 57
+newline poly pcfill 0.5 0.5 0.551181 color 0.5 0.5 0.551181 pts 6 69 6 72 12 72 12 69
+newline poly pcfill 0.5 0.5 0.551181 color 0.5 0.5 0.551181 pts 12 48 12 51 18 51 18 48
+newline poly pcfill 0.5 0.5 0.551181 color 0.5 0.5 0.551181 pts 18 57 18 60 24 60 24 57
+newline poly pcfill 0.5 0.5 0.551181 color 0.5 0.5 0.551181 pts 24 69 24 72 30 72 30 69
 
 newline poly linethickness 1 color 0.75 0.75 0.75 pfill -1 pts 0 0 0 3 30 3 30 0
 newline poly linethickness 1 color 0.75 0.75 0.75 pfill -1 pts 0 3 0 6 30 6 30 3

@@ -141,8 +141,8 @@ Track generate_track(string filename) {
         else if (words[0][0] == 'i') {
             instrument.id = stoi(words[1]);
         }
-        else {  
-            Note note = Note(stoi(words[0]), stoi(words[1]), stoi(words[2]), stoi(words[3]));
+        else if (words[0][0] == 'n') {  
+            Note note = Note(stoi(words[1]), stoi(words[2]), stoi(words[3]), stoi(words[4]));
             instrument.notes.push_back(note);
         }
     }
