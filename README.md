@@ -45,21 +45,25 @@ notes that follow will be added to that instrument with `p` for pitch, `v` for v
 
 `end` lets my program know that `instrument n` is finished so I can add it to the track.
 
+---
 
-
-Now that you know how to create a textfile file to feed into my file here's what to run.
+Now that you know how to create a textfile file to feed into my file here's what to run:
 
 to compile and run: 
-`g++ midi-generator.cpp -o midi-generator && ./midi-generator [input_file_name]`
+
+```g++ midi-generator.cpp -o midi-generator && ./midi-generator [input_file_name]```
 
 to generate jpg from generated jrg:
-`jgraph -P [generated .jrg file_name] | ps2pdf - - | magick -density 300 - -quality 100 [file_name you want your .jpg to be]`
+
+```jgraph -P [generated .jrg file_name] | ps2pdf - - | magick -density 300 - -quality 100 [file_name you want your .jpg to be]```
 
 for testing purposes I've created `sample.txt` so just run:
-`g++ midi-generator.cpp -o midi-generator && ./midi-generator sample.txt`
+
+```g++ midi-generator.cpp -o midi-generator && ./midi-generator sample.txt```
 
 then:
-`jgraph -P track.jgr | ps2pdf - - | magick -density 300 - -quality 100 track.jpg`
+
+```jgraph -P track.jgr | ps2pdf - - | magick -density 300 - -quality 100 track.jpg```
 
 after that you should have generated `track.jpg`.
 
